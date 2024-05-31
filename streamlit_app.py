@@ -13,12 +13,11 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import pickle
-#sklearn
 import sklearn
 import imblearn
 
 # Print library versions
-st.write(f"Streamlit version: {st._version_}")
+st.write("Streamlit version:", st.__version__)
 st.write(f"Pandas version: {pd._version_}")
 st.write(f"Numpy version: {np._version_}")
 st.write(f"Scikit-learn version: {sklearn._version_}")
