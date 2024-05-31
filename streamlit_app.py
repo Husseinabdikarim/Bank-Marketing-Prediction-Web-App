@@ -18,10 +18,10 @@ import imblearn
 
 # Print library versions
 st.write("Streamlit version:", st.__version__)
-st.write(f"Pandas version: {pd._version_}")
-st.write(f"Numpy version: {np._version_}")
-st.write(f"Scikit-learn version: {sklearn._version_}")
-st.write(f"Imbalanced-learn version: {imblearn._version_}")
+st.write(f"Pandas version: {pd.__version__}")
+st.write(f"Numpy version: {np.__version__}")
+st.write(f"Scikit-learn version: {sklearn.__version__}")
+st.write(f"Imbalanced-learn version: {imblearn.__version__}")
 
 # loading the saved model
 loaded_model = pickle.load(open('bank_model.pkl.sav', 'rb'))
